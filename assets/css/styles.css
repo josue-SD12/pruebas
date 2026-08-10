@@ -1,0 +1,120 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Contenedor principal */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+/* Caja de login */
+.login-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Título */
+.login-box h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #2575fc;
+}
+
+/* Grupos de inputs */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #2575fc;
+    outline: none;
+}
+
+/* Botón de login */
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background: #2575fc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-login:hover {
+    background: #1a5bbf;
+}
+
+/* Mensaje de error */
+.mensaje {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Enlace de registro */
+.register-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #2575fc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.register-link a:hover {
+    color: #1a5bbf;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .login-box {
+        padding: 20px;
+    }
+
+    .login-box h1 {
+        font-size: 20px;
+    }
+
+    .input-group input {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .btn-login {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .register-link {
+        font-size: 12px;
+    }
+}
